@@ -1,0 +1,40 @@
+.header, .footer{
+    background-color: #1f2937;
+}
+
+.headerlogo{
+    font-size: 24px;
+}
+
+.awesome{
+    font-size: 48px;
+    font-weight:extra-bold;
+}
+
+.headerlogo, .awesome{
+    color:#f9faf8;
+}
+
+.subtext, .list, .footer, .text,{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+.testimonial{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+button, .callfooter .container{
+    background-color: #3882f6;
+}
