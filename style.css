@@ -110,11 +110,24 @@ button.signup{
     align-items: center;
     gap: 50px;
 }
-
+.info{
+    display: flex;
+    justify-content: center;
+    }
 .pics{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:200px;
 }
+.picscontainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    gap: 52px;
+}
+
 img.bird{
     border-radius: 8px;
     border: 5px solid #3882f6;
