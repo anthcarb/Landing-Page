@@ -152,3 +152,10 @@ img.bird{
 button, .callfooter{
     background-color: #3882f6;
 }
+
+.footer{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
