@@ -28,12 +28,13 @@ a:hover{
 }
 button {
     padding: 12px 36px;
-    border-radius: 14px;
+    border-radius: 8px;
     font-weight: bold;
     color: #e5e7eb;
     border-color: #e5e7eb;
     font-size: 18px;
-  }
+}
+
 button:hover{
     opacity: 50%;
 }
@@ -96,9 +97,35 @@ button.signup{
 
 .info{
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: bold;
     color: #1f2937;
+    padding: 24px;
+    margin: 50px 0px;
 }
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+img.bird{
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+}
+.bird{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
 .quote{
     background-color: #e5e7eb;
 }
