@@ -86,11 +86,11 @@ button.signup{
     font-weight:extra-bold;
 }
 
-.headerlogo, .awesome{
+.headerlogo, .awesome, .call{
     color:#f9faf8;
 }
 
-.subtext, .list, .footer, .text{
+.subtext, .list, .footer, .text, .signupbottom{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -157,6 +157,18 @@ img.bird{
     font-weight: 900;
     align-self: flex-end;
     margin-right: 200px;
+}
+
+.callfooter{
+    display: flex;
+    padding: 50px;
+    border-radius: 8px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.call{
+    font-size: 18px;
+    font-weight: bold;
 }
 button, .callfooter{
     background-color: #3882f6;
