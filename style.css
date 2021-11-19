@@ -123,7 +123,7 @@ button.signup{
 }
 .picscontainer{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 52px;
 }
@@ -136,19 +136,28 @@ img.bird{
     width: 200px;
     height: 200px;
     object-fit: cover;
-
 }
 
 .quote{
     background-color: #e5e7eb;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
 }
 .testimonial{
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 50;
     font-style: italic;
     color: #1f2937;
+    justify-content: center;
+    margin: 0px 200px;
 }
 
+.speaker{
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 200px;
+}
 button, .callfooter{
     background-color: #3882f6;
 }
